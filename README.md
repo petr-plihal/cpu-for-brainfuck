@@ -8,6 +8,7 @@
 
 ## Popis
 Implementace jednoduchého procesoru ve VHDL, který vykonává instrukce rozšířeného jazyka Brainfuck. Procesor obsahuje jednotnou paměť, podporuje I/O operace a běží na definovaném rozhraní. Cílem bylo vytvořit syntetizovatelný návrh včetně podpory většiny instrukcí jazyka a automatických testů.
+
 ---
 
 ## Použití
