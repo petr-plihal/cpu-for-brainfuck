@@ -13,30 +13,48 @@ Implementace jednoduchého procesoru ve VHDL, který vykonává instrukce rozš�
 
 ## Použití
 
+Aplikaci můžete spouštět, jak pro vývoj tak pro demonstaci, buď [přes docker](#spuštění-programu-s-dockerem), nebo [instalací nástrojů `ghdl` a `gtkwave`](#spuštění-programu-s-ghdl-a-gtkwave). 
+
+
 ### Závislosti a předpoklady
 
-- [Operační systém]
-- [Seznam závislostí]
+- Linux (Testováno s WSL - Ubuntu 22.04.5 LTS)
+- Docker - volitelně, nutné pouze při práci s Dockerem
 
 ### Instalace
 
-1. Naklonujte repozitář
+Naklonujte repozitář
 ```bash
-git clone [Odkaz na projekt]
-cd [Název projektu]
+git clone git@github.com:petr-plihal/cpu-for-brainfuck.git
+cd cpu-for-brainfuck
 ```
 
-2. Nainstalujte závislosti
-```bash
-[Zde přidejte příkazy]
-```
-
-### Spuštění programu
+### Spuštění programu s Dockerem
 
 1. Spusťte aplikaci
-```bash
-[Zde přidejte příkazy]
-```
+    ```bash
+    [Zde přidejte příkazy]
+    ```
+
+### Spuštění programu s `ghdl` a `gtkwave`
+
+1. Nainstalujte závislosti
+    ```bash
+    sudo apt update
+    sudo apt install ghdl gtkwave
+    ```
+
+2. Spusťte procesor přes test bench - lze použít skript `run.sh`, případně příkazy z něj provést manuálně.
+    ```bash
+    ./run.sh
+    ```
+
+    Otevře se okno grafického rozhranní GTKWave, kde lze vidět jednotlivé signály a jejich hodnoty, viz:
+    ![GTKWave GUI ukázka](doc/readme_images/gtkwave-gui.png)
+    V tomto případě jde o provedení jednoduchého programu 
+
+
+### Testovací programy
 
 ---
 
