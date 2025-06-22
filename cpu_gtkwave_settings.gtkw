@@ -1,0 +1,46 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Jun 22 14:48:18 2025
+[*]
+[dumpfile] "/home/petr/projects/cpu-for-brainfuck/cpu_test_bench.vcd"
+[dumpfile_mtime] "Sun Jun 22 14:34:11 2025"
+[dumpfile_size] 6391722
+[savefile] "/home/petr/projects/cpu-for-brainfuck/cpu_gtkwave_settings.gtkw"
+[timestart] 30600000
+[size] 1908 1007
+[pos] -2126 -84
+*-26.000000 97300000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[sst_width] 214
+[signals_width] 237
+[sst_expanded] 1
+[sst_vpaned_height] 295
+@28
+cpu_tb.clk
+@23
+cpu_tb.data_addr[12:0]
+@28
+cpu_tb.data_en
+@22
+cpu_tb.data_rdata[7:0]
+@28
+cpu_tb.data_rdwr
+@22
+cpu_tb.data_wdata[7:0]
+@28
+cpu_tb.done
+cpu_tb.en
+@22
+cpu_tb.in_data[7:0]
+@28
+cpu_tb.in_req
+cpu_tb.in_vld
+cpu_tb.out_busy
+@22
+cpu_tb.out_data[7:0]
+@28
+cpu_tb.out_we
+cpu_tb.ready
+cpu_tb.reset
+[pattern_trace] 1
+[pattern_trace] 0
